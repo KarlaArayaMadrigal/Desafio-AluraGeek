@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluraGeek</title>
+    <link rel="icon" href="img/alura.png" type="image/png" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="tituloPrincipal">
+        <label id="titulo"> AluraGeek</label>
+        <img src="/img/image 1.png" id="corazones" />
+      </div>
+    </header>
+    <main>
+      <section class="misProductos" data-lista>
+        <h1 id="tituloMisProductos">MIS PRODUCTOS:</h1>
+        <div class="imagenes_line">
+          <div class="card">
+            <img id="imagen" src="/img/unsplash_6FDXGY9J6y4.svg" />
+            <div class="card-container--info">
+              <p id="nombre">Nombre</p>
+              <div class="card-container--value">
+                <p id="precio">$ 00.00</p>
+                <img src="/img/Vector.svg" id="papelera" />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img id="imagen" src="/img/image 2.svg" />
+            <div class="card-container--info">
+              <p id="nombre">Nombre</p>
+              <div class="card-container--value">
+                <p id="precio">$ 00.00</p>
+                <img src="/img/Vector.svg" id="papelera" />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img id="imagen" src="/img/unsplash_6FDXGY9J6y4.svg" />
+            <div class="card-container--info">
+              <p id="nombre">Nombre</p>
+              <div class="card-container--value">
+                <p id="precio">$ 00.00</p>
+                <img src="/img/Vector.svg" id="papelera" />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img id="imagen" src="/img/image 2.svg" />
+            <div class="card-container--info">
+              <p id="nombre">Nombre</p>
+              <div class="card-container--value">
+                <p id="precio">$ 00.00</p>
+                <img src="/img/Vector.svg" id="papelera" />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img id="imagen" src="/img/unsplash_6FDXGY9J6y4.svg" />
+            <div class="card-container--info">
+              <p id="nombre">Nombre</p>
+              <div class="card-container--value">
+                <p id="precio">$ 00.00</p>
+                <img src="/img/Vector.svg" id="papelera" />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img id="imagen" src="/img/image 2.svg" />
+            <div class="card-container--info">
+              <p id="nombre">Nombre</p>
+              <div class="card-container--value">
+                <p id="precio">$ 00.00</p>
+                <img src="/img/Vector.svg" id="papelera" />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img id="imagen" src="/img/unsplash_6FDXGY9J6y4.svg" />
+            <div class="card-container--info">
+              <p id="nombre">Nombre</p>
+              <div class="card-container--value">
+                <p id="precio">$ 00.00</p>
+                <img src="/img/Vector.svg" id="papelera" />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img id="imagen" src="/img/image 2.svg" />
+            <div class="card-container--info">
+              <p id="nombre">Nombre</p>
+              <div class="card-container--value">
+                <p id="precio">$ 00.00</p>
+                <img src="/img/Vector.svg" id="papelera" />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img id="imagen" src="/img/unsplash_6FDXGY9J6y4.svg" />
+            <div class="card-container--info">
+              <p id="nombre">Nombre</p>
+              <div class="card-container--value">
+                <p id="precio">$ 00.00</p>
+                <img src="/img/Vector.svg" id="papelera" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="agregarProducto">
+        <h1 id="tituloAgregarProducto">AGREGAR PRODUCTO:</h1>
+        <div class="container__formulario">
+          <div class="formulario">
+            <input
+              type="text"
+              id="nombreNuevoProducto"
+              placeholder="Nombre"
+              required
+            />
+            <input
+              type="number"
+              id="precioNuevoProducto"
+              placeholder="Precio"
+              required
+            />
+            <input
+              type="file"
+              id="imagenNuevoProducto"
+              placeholder="Imagen"
+              required
+            />
+            <div class="botones">
+              <button type="submit" id="botonAgregarProducto">Enviar</button>
+              <button type="reset" id="limpiar">Limpiar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div id="container__footer">
+        <label id="tituloFooter"> AluraGeek</label>
+        <img src="/img/image 1.png" id="corazonesFooter" />
+        <h3 id="desarrollado">Desarrollado por Karla Araya</h3>
+        <h3 id="alura">Alura Latam - 2024</h3>
+      </div>
+    </footer>
+    <script type="module" src="/js/listarProductos.js"></script>
+    <script type="module" src="/js/crearProducto.js"></script>
+  </body>
+</html>
+

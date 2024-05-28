@@ -1,0 +1,64 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Producto 1",
+      "precio": 10,
+      "imagen": "/img/unsplash_6FDXGY9J6y4.svg"
+    },
+    {
+      "id": 2,
+      "nombre": "Producto 2",
+      "precio": 20,
+      "imagen": "/img/image 2.svg"
+    },
+    {
+      "id": "0d8c",
+      "nombre": "producto",
+      "precio": 55,
+      "imagen": "C:\\fakepath\\OIP (1).jpg"
+    },
+    {
+      "id": "d189",
+      "nombre": "producto",
+      "precio": 55,
+      "imagen": "C:\\fakepath\\Skill.png"
+    },
+    {
+      "id": "cf47",
+      "nombre": "prueba",
+      "precio": 30000,
+      "imagen": "C:\\fakepath\\image 2.svg"
+    },
+    {
+      "id": "60df",
+      "nombre": "prueba",
+      "precio": 30000,
+      "imagen": "C:\\fakepath\\image 1.png"
+    },
+    {
+      "id": "5397",
+      "nombre": "HH",
+      "precio": 4,
+      "imagen": "C:\\fakepath\\alura.png"
+    },
+    {
+      "id": "7191",
+      "nombre": "prueba2",
+      "precio": 1200,
+      "imagen": "C:\\fakepath\\image 1.png"
+    },
+    {
+      "id": "d64c",
+      "nombre": "l",
+      "precio": 3,
+      "imagen": "C:\\fakepath\\alura.png"
+    },
+    {
+      "id": "3696",
+      "nombre": "w",
+      "precio": 2,
+      "imagen": "C:\\fakepath\\image 1.png"
+    }
+  ]
+}
